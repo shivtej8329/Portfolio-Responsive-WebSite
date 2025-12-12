@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-decoration: none;
+  color: #0c002b;
+}
+body {
+  background-color: silver;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 65px;
+}
+
+.logo {
+  font-size: 30px;
+  padding: 10px 20px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul li {
+  padding-left: 25px;
+  margin-right: 20px;
+}
+
+.main {
+  margin: 50px 50px 0 50px;
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.aboutme {
+  width: 50%;
+}
+
+.hello {
+  font-size: 50px;
+}
+
+.about {
+  padding-top: 20px;
+}
+
+.img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.img img {
+  height: 100%;
+}
+
+.heading {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.form {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form form {
+  padding-top: 50px;
+  height: 200px;
+  width: 300px;
+}
+
+.form form,
+input,
+label,
+button {
+  background-color: white;
+  color: #0c002b;
+}
+
+#email {
+  padding: 10px;
+  font-weight: bold;
+}
+
+#phone {
+  padding: 10px;
+  font-weight: bold;
+}
+
+button {
+  margin-left: 100px;
+  padding: 10px;
+  font-weight: bold;
+}
+button:hover {
+  font-weight: bold;
+  color: white;
+  background-color: #0c002b;
+}
+
+.skills ul {
+  margin-top: 50px;
+}
+
+.skills ul li {
+  text-align: center;
+  width: 85px;
+  padding: 5px;
+  border: 2px solid #0c002b;
+  border-radius: 20px;
+}
